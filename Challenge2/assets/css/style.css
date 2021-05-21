@@ -1,0 +1,137 @@
+#title{
+  text-align: center;
+}
+
+#header{
+  border-radius: 25px;
+  border-style: double;
+  border-width: 5px;
+  border-color: white;
+  background-color: white; 
+}
+
+#navBarContainer{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navBarContent{
+  display: flex;
+  justify-content: space-around;
+}
+
+#aboutMeHeader{
+  text-align: center;
+}
+
+#aboutMeContentContainer{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.aboutMeContent{
+  display: flex;
+  justify-content: space-around;
+}
+
+#myPicture{
+  max-width: 80%;
+  height: auto;
+}
+
+#projectHeader{
+  text-align: center;
+}
+
+#projectContentContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  align-items: center;
+}
+
+#project1{
+  grid-row-start: span 2;
+}
+
+.projectLink{
+  display: grid;
+}
+
+#projectPicture1{
+  max-width: 95%;
+  height: auto;
+}
+
+.projectPicture{
+  max-width: 93%;
+  height: auto;
+  margin: auto
+}
+
+.caption{
+  text-align: center;
+}
+
+#contactHeader{
+  text-align: center;
+}
+
+#contactContentContainer{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contactContent{
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  border-radius: 25px;
+}
+
+body{
+  margin: 60px;
+  background-image: linear-gradient(to bottom right, #243f5d, #7e1a52);
+}
+
+h1, h2{
+  font-family: 'Train One', cursive;
+  border-radius: 25px;
+  border-style: double;
+  border-width: 5px;
+  border-color: white;
+  color: #7e1a52;
+  background-color: white;  
+}
+
+p, h3{
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+  
+  #aboutMeContentContainer{
+    display:block;
+  }
+  
+  #projectContentContainer{
+    display:block;
+  }
+  
+  .projectPicture{
+    max-width: 90%;
+  }
+
+}
