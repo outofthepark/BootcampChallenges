@@ -118,6 +118,19 @@ button[disabled] {
   overflow: hidden;
 }
 
+.error{
+  color: red;
+  display: none;
+}
+
+#password-choices{
+  display: none;
+}
+
+#go{
+  display: none;
+}
+
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
