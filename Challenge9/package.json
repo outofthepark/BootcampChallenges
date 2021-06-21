@@ -1,0 +1,22 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "Node.js application that allows the user to generator a readme file afte a series of command line prompts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outofthepark/BootcampChallenges/tree/master/Challenge9"
+  },
+  "keywords": [
+    "node",
+    "readme"
+  ],
+  "author": "Allison Harden",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.1.1"
+  }
+}
